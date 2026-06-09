@@ -1,40 +1,20 @@
-# Dependencies
 node_modules/
-frontend/node_modules/
 .venv/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
-env/
-
-# Environment
 .env
-.env.local
-
-# IDE & OS
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
 .DS_Store
-Thumbs.db
-
-# Build & Dist
 dist/
 build/
 *.egg-info/
 .pytest_cache/
 .coverage
 htmlcov/
-
-# ML Models & Data (optional - uncomment to exclude)
-# *.pkl
-# *.csv
-# *.h5
-
-# Project specific
-prediction_history.json
+.vscode/
 .git/
+prediction_history.json
+*.pkl
+*.csv
